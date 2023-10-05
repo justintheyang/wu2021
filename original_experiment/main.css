@@ -1,0 +1,65 @@
+body { font-size: 18px; }
+h3 {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+select { font-size: 14px;
+		   padding: 5px; }
+table {
+	border-spacing: 20px;
+	border: 0px;
+	vertical-align: top;
+}
+td {
+	vertical-align: top;
+	text-align: center;
+}
+
+.homepage {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: justify;
+}
+
+.img_example {
+	height: 200px;
+}
+.img_question {
+	width: 300px;
+}
+
+table.recipe {
+	border-spacing: 0px;
+}
+img.recipe { height: 110px; }
+
+img.icons {
+	height: 40px;
+	width: 40px;
+}
+td.icons {
+	width: 25%;
+	border: 1px solid black; 
+	padding: 10px;
+}
+
+td.tasks {
+	border: 1px solid black; 
+	padding: 10px;
+}
+
+.button_wrapper { text-align: center; }
+input[type="range"] { width: 200px; }
+input[type="submit"] {
+	font-size: 18px;
+	padding: 5px 20px;
+	background: black;
+	color: white;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+ol { margin-top: 0px; }
+li { padding: 10px; }
+.column { float: left;
+			width: 50%; }
