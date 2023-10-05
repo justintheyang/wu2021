@@ -1,6 +1,6 @@
 ---
-title: "Replication of Study X by Sample & Sample (20xx, Psychological Science)"
-author: "Replication Author[s] (contact information)"
+title: "Replication of of Section 4.3 of Too Many Cooks: Bayesian Inference for Coordinating Multi‐Agent Collaboration by Wu, Sarah A. et. al. (2021, Topics in Cognitive Science)"
+author: "Justin Yang (justin.yang@stanford.edu)"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 format:
   html:
@@ -12,7 +12,15 @@ format:
 
 ## Introduction
 
-[No abstract is needed.]  Each replication project will have a straightforward, no frills report of the study and results.  These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole.  Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection.  Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information.  It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.  
+I will be replicating the results shown in figures 5 and 6 of the paper *Too Many Cooks: Bayesian Inference for Coordinating Multi‐Agent Collaboration* by Sarah Wu et al. (2021). In this paper, the authors propose Bayesian Delegation - a multi-agent learning mechanism that uses inverse planning to infer the hidden intentions of others - as a computational model for coordination, showing that the model aligns with human behavior better than other competing models. As someone broadly interested in computational modeling and social cognition, this paper aligns well with my interests due to their use of Bayesian Theory of Mind (BToM). Furthermore, as someone interested in understanding how we represent knowledge in abstract ways, and more recently in task decomposition, their use of hierarchical planning at the level of actions and sub-goals makes this project a clear fit for my interests. Finally, their use of model ablation to interrogate the importance of specific features of Bayesian Delegation in Figure 6 is methodologically relevant to my work as I intend to do various benchmarks later on to probe cognitive function using computational modeling. 
+
+For this replication, I will recreate the scene judgment task where we present the participant with two agents working together in the overcooked domain. Rather than regenerating the scenes from the computational model, I will use the same stimuli in the original paper. Rather than using base HTML and javascript, however, I will be re-coding this as a jsPsych plugin for ease of future use. To generate the figures and perform model comparison, I will directly compare the results with the model outputs from the original paper (i.e., I will not be recreating the model from scratch). The primary challenge will lie in recreating the behavioral experiment, as the plots comparing model and human performance are easier to reproduce using existing model outputs.
+
+Another student in the class may perform a computational replication of the models presented here. If that is the case, then I will also evaluate the outcomes on both the papers' outputs and the replicated model outputs. 
+
+Link to repository: https://github.com/psych251/wu2021
+
+Link to paper: https://sarahawu.github.io/assets/papers/wu2021cooks.pdf 
 
 
 ## Methods
